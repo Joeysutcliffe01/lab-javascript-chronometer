@@ -14,11 +14,13 @@ const milUniElement = document.getElementById('milUni');
 const splitsElement = document.getElementById('splits');
 
 function printTime() {
-  // ... your code goes here
+  
+
+
 }
 
 function printMinutes() {
-  // ... your code goes here
+  
 }
 
 function printSeconds() {
@@ -56,7 +58,16 @@ function setResetBtn() {
 
 // Start/Stop Button
 btnLeftElement.addEventListener('click', () => {
-  // ... your code goes here
+
+  btnLeftElement.classList.toggle("stop")
+
+  btnLeftElement.innerText = "Stop"
+
+
+  
+ 
+  // console.log(this.currentTime.value);
+  // start()
 });
 
 // Reset/Split Button
